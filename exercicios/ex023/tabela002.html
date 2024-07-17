@@ -10,6 +10,7 @@
         }
 
         table {
+            position: relative;
             width: 500px;
             border-collapse: collapse;
         }
@@ -21,6 +22,24 @@
             background-color: lightgray;
         }
 
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(even) { /* 2n */
+            background-color: lightgray;
+        }
+
+        tbody > tr:nth-child(odd) { /* 2n -1 */
+            background-color: rgb(255, 255, 255);
+        }
+
         th, td {
             border: 1px solid black;
             padding: 10px;
@@ -30,10 +49,6 @@
             text-align: right;
         }
 
-        thead, tfoot {
-            background-color: gray;
-            color: white;
-        }
     </style>
 </head>
 <body>
@@ -177,5 +192,10 @@
             </tr>
         </tfoot>
     </table>
+    <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero enim mollitia, corporis temporibus odit dicta blanditiis aspernatur ut illo neque numquam expedita vitae! Sunt suscipit obcaecati officia a cumque id.</span><span>Tempora autem consectetur nisi dicta qui eveniet fugiat aperiam officia, accusantium, nobis reprehenderit, commodi maxime. Placeat similique eveniet cumque? Pariatur cupiditate neque, aut nihil minima animi dignissimos sed veniam sunt.</span><span>Ex unde blanditiis beatae molestias itaque deleniti possimus! Facilis, omnis optio fugiat, libero nesciunt a eius rerum nisi explicabo soluta molestias eos, iure consequatur. Corrupti odit et ut fuga error!</span><span>Necessitatibus sint neque ducimus impedit reprehenderit quia architecto omnis est, dolores ipsam non doloremque aliquid tempore? Commodi quasi temporibus sapiente explicabo eum fugit itaque mollitia praesentium, velit voluptatum! Neque, ipsum!</span></p>
+    <p><span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum qui ex cumque minus, libero blanditiis natus, totam magni nemo culpa ab possimus aut dolores temporibus numquam. Aut nemo amet quod.</span><span>Molestiae, voluptatem ipsam architecto perspiciatis blanditiis ipsa harum itaque delectus exercitationem modi incidunt, quas dolores accusamus veritatis rerum sequi ex corporis! Ipsa qui dignissimos cum hic, eligendi maxime necessitatibus pariatur?</span><span>Facilis ipsam omnis dicta enim magnam recusandae rem nesciunt molestiae culpa error. Quam, consequatur ducimus nihil saepe illum laudantium ea nemo qui neque autem magni quis aperiam ut necessitatibus tempora.</span><span>Saepe aut, eos eum eligendi voluptate accusantium nesciunt minus explicabo animi quisquam atque temporibus deserunt earum dolorum alias assumenda sint laudantium consequuntur illum provident voluptas. Incidunt doloribus qui sapiente deserunt.</span></p>
+    <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore accusantium fugit, neque hic nam, ipsam necessitatibus consectetur impedit quis dolorum maxime enim quidem voluptatem ipsa natus? Fugiat aspernatur ipsam tempora.</span><span>Ad, dolor dolorem sed eveniet quae harum architecto delectus earum nulla corporis adipisci doloremque nisi quisquam? Laudantium alias accusantium facere explicabo aliquam, praesentium delectus tempora, temporibus fugiat quas, illum saepe?</span><span>Alias perspiciatis nesciunt quam ut! Ad, accusamus, commodi sed deleniti neque repellat sit alias incidunt placeat distinctio sint, rem quis eveniet? Voluptates, fugit! Nesciunt illum at et dolorum? Iste, quod!</span><span>Distinctio dolorum explicabo ad laborum ipsam. Consectetur quis laborum magni quia nesciunt exercitationem reprehenderit culpa explicabo, praesentium, atque magnam! Ad laudantium alias voluptatem dignissimos voluptates aut perferendis libero nulla exercitationem?</span></p>
+    <p><span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur excepturi odio rerum. Natus sit, dolorum quis, doloribus impedit sint, maxime id nulla inventore sed repudiandae. Beatae, eaque. Ipsam, aperiam dicta!</span><span>Dolorum quas porro quidem nemo, molestias odit repellat numquam voluptates excepturi quo hic rerum error laboriosam animi qui fugit veritatis tempora fuga nulla, itaque repudiandae consequuntur illum dolore! Veniam, impedit.</span><span>Esse dolores doloremque cum illo molestias corrupti voluptate consectetur, iusto odit cupiditate reprehenderit sapiente, similique nam fugit alias culpa neque voluptates. Sapiente mollitia earum cupiditate illum, nisi tenetur molestiae fugiat.</span><span>Similique, incidunt natus provident mollitia laudantium hic asperiores accusantium, distinctio excepturi doloribus a voluptatem. Repudiandae odio assumenda voluptatum, laborum fugiat unde aperiam ipsum, doloremque, dolores qui debitis at nulla rerum.</span></p>
+    <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi pariatur unde eligendi dolores totam numquam itaque repellat officia ipsam libero consectetur doloribus eos placeat laudantium necessitatibus odio ea, molestiae laborum!</span><span>Placeat, sunt molestiae animi temporibus excepturi itaque nostrum suscipit est modi! Quia temporibus tenetur fugiat facilis sint repellat illo nobis tempore, eos quisquam molestias debitis et repudiandae aliquid exercitationem ducimus.</span><span>Est dolores reprehenderit iure incidunt, voluptate animi. Repudiandae maxime commodi distinctio sed, ea tenetur libero quas in cum at veniam iste temporibus necessitatibus recusandae dolorem iure, optio ex, minus doloribus!</span><span>Sit veniam officia obcaecati neque dignissimos rerum hic laudantium? Voluptas rerum quae odit dolore enim voluptatibus, incidunt modi soluta sapiente, maiores provident, corrupti non ab ut natus fugit mollitia molestiae?</span></p>
 </body>
 </html>
