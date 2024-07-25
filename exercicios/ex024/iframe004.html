@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframes</title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptatem minima voluptates. Error natus voluptatum ducimus, architecto magnam illum tempora reiciendis quis blanditiis eaque, nobis alias ratione asperiores saepe dolor.</p>
+
+    <!-- Configuração de segurança do iframe
+        sandbox -> bloaqueia o acesso a qualquer informações
+        allow-same-origin -> permiti conteúdo da mesma origem
+        allow-forms -> permiti formulário
+        allow-scripts -> permiti scripts
+        referrerpolicy -> política de referença
+        com parâmentro "no-referrer" bloqueia todos os cookies
+    -->
+
+    <iframe src="paginas-extras/pag004.html" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer">
+        seu navegador não é compatível com isso...
+    </iframe>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum adipisci tempora omnis, nemo, architecto accusamus nostrum voluptate velit labore voluptates dignissimos odit aut nulla? Accusamus quas necessitatibus repellat obcaecati quidem.</p>
+</body>
+</html>
